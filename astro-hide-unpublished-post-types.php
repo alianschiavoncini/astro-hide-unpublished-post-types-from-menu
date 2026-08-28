@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Astro Hide Unpublished Post Types From Menu
  * Description: Hides from menus all post_types that have a status other than published.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Requires at least: 5.2
  * Requires PHP:      7.4
  * Author:            Alian Schiavoncini
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Prevents direct access to the file.
 }
 
-define( 'ASTRO_HUPT_VERSION', '1.0.2' );
+define( 'ASTRO_HUPT_VERSION', '1.0.3' );
 
 add_filter( 'parse_query', 'astro_hupt_parse_query' );
 add_filter( 'views_edit-post', 'astro_hupt_filter_views' );

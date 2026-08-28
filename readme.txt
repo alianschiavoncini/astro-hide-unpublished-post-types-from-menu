@@ -2,8 +2,8 @@
 Contributors: alian
 Tags: post types, unpublished, hide, menu, menus
 Requires at least: 5.2
-Tested up to: 7.0
-Stable tag: 1.0.2
+Tested up to: 7.1
+Stable tag: 1.0.3
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,6 +26,9 @@ Currently, the plugin is designed to hide all post types except those with the "
 gsphudo7by90lzwdlihyerqxbzj6jiln
 
 == Changelog ==
+= 1.0.3 =
+* Compatibility: tested with WordPress 7.1.
+
 = 1.0.2 =
 * Changed: the plugin author is now Alian Schiavoncini (https://www.alian.it). The previous AstroThemes website and email address are no longer active.
 * Compatibility: tested with WordPress 7.0.
